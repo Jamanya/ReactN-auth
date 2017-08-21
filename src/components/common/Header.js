@@ -15,7 +15,7 @@ const Header = (props) => {
 //styles
 const styles = {
     viewStyle: { 
-        backgroundColor: '#009dc8',
+        backgroundColor: '#FF8C00',
         justifyContent: 'center',
         alignItems: 'center',
         height: 60,
@@ -34,4 +34,4 @@ const styles = {
 };
 
 //Make component available to other parts of the app
-export default Header;
+export { Header };
